@@ -1,0 +1,4 @@
+mi_kernel.o: mi_kernel.c mi_syscall.h mi_user.h hw_config.h \
+ libhardware/include/hardware.h mi_kernel.h
+mi_user.o: mi_user.c mi_syscall.h mi_user.h hw_config.h \
+ libhardware/include/hardware.h

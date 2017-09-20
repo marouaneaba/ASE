@@ -1,0 +1,50 @@
+Première manipulation pratique 
+Bibliothèque try()/throw()
+
+
+  Authors
+  -----------
+  
+  Hamann Denis & Delperdange Nicolas
+
+  What is it?
+  -----------
+
+  This program allows you to enter a sequence of numbers 
+  that will be multiplied and the program will show you 
+  the result.
+  
+  
+  Files
+  ------------  
+  
+  displaystack.c
+  try.c
+  try.h
+  try_mul.c
+  Makefile
+  Readme (this file)
+
+
+  Installation
+  ------------
+  
+  Go into the folder containing the sources.
+  Commands : 
+  - To install this program : make
+  - To clean : make clean
+  
+
+  Documentation
+  -------------
+
+  To use this program, run the file "prog" in a terminal.
+  Type the numbers that you want to multiply.
+  When you have finished to type your numbers, press CTRL+D to
+  tell the program you have finished.
+  
+  Don't forget that if you multiply a number with 0, the result
+  is always 0, so the program will stop immediately and print 0. 
+
+
+  

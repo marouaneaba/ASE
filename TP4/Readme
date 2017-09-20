@@ -1,0 +1,43 @@
+Example of context switching
+
+  Authors
+  -----------
+  
+  Hamann Denis & Delperdange Nicolas
+
+  What is it?
+  -----------
+
+  This program will show you an example of context switching 
+  and the exemple of a consummer/producer with semaphores.
+  Context switching is done by IRQ.
+  
+  Files
+  ------------  
+  
+  context.c
+  context.h
+  sem.c
+  sem.h
+  prodcons.c
+  prodcons.h
+  Makefile
+  Readme (this file)
+
+
+  Installation
+  ------------
+  
+  Go into the folder containing the sources.
+  Commands : 
+  - To install this program : make
+  - To clean : make clean
+  
+
+  Documentation
+  -------------
+
+  To use this program, run the file "main" in a terminal.
+  
+
+  

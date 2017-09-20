@@ -1,0 +1,18 @@
+Correction TP3
+
+
+switch_to(ctx * new){
+
+
+	while(nouveau->next->status == TERMINATED){
+		if(nouveau->next == courant){
+			exit(0);
+		}
+		free(nouveau->stack);
+		if(ring == nouveau)
+			ring = nouveau->next;
+		courant->next = nouveau->next;
+		free(nouveau);
+		nouveau=courant->next;
+	}
+}
